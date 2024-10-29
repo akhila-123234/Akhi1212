@@ -4,12 +4,13 @@ IRS=float(input("Enter marks:"))
 PPL=float(input("Enter marks:"))
 CN=float(input("Enter marks:"))
 total=(DAA+Devops+IRS+PPL+CN)
-print("your marks in percentage is",total,%)
-if total>90:
+percentage=(total/500)*100
+print("your marks in percentage is",percentage)
+if percentage>90:
     print("grade:O")
-elif total>80 and total<80:
+elif percentage>80 and percentage<80:
     print("grade:A")
-elif total>70 and total<80:
+elif percentage>70 and percentage<80:
     print("grade:B")
 else:
     print("grade:F")            
